@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>QR Code Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <i class="fas fa-qrcode"></i>
+        </div>
+        <h1>QR Code Generator</h1>
+        <p>Create beautiful QR codes instantly</p>
+      </div>
+      
+      <form class="qr-form">
+        <div class="input-group">
+          <i class="fas fa-link input-icon"></i>
+          <input
+            type="text"
+            id="inp"
+            required
+            placeholder="Enter text, URL, or any data here..."
+          />
+        </div>
+        
+        <button id="btn" type="button">
+          <i class="fas fa-magic"></i>
+          Generate QR Code
+        </button>
+      </form>
+
+      <div id="qrcode-container" class="qr-result">
+        <div class="result-header">
+          <h3>Your QR Code</h3>
+          <p>Scan this code with any QR reader app</p>
+        </div>
+        <div class="qrcode" id="qrcode">
+          <img src="" alt="Generated QR Code" id="qrimg" />
+        </div>
+        <div class="qr-actions">
+          <button class="download-btn" id="downloadBtn">
+            <i class="fas fa-download"></i>
+            Download
+          </button>
+          <button class="share-btn" id="shareBtn">
+            <i class="fas fa-share-alt"></i>
+            Share
+          </button>
+        </div>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-bolt"></i>
+          <h4>Fast & Easy</h4>
+          <p>Generate QR codes in seconds</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-mobile-alt"></i>
+          <h4>Mobile Ready</h4>
+          <p>Works perfectly on all devices</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-shield-alt"></i>
+          <h4>Secure</h4>
+          <p>Your data stays private</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
