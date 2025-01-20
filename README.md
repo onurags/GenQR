@@ -155,6 +155,3 @@ If you have questions or need help:
 
 ---
 
-**Happy Coding! 🎉**
-
-*This project is perfect for learning HTML, CSS, and JavaScript while creating something useful and beautiful.*
