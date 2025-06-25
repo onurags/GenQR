@@ -7,6 +7,10 @@ A beautiful, modern, and beginner-friendly QR code generator built with HTML, CS
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
+## 🎥 Demo
+![QR Code Generator Demo](./images/demo.png)
+
+
 ## ✨ Features
 
 - 🎨 **Beautiful Modern Design** - Clean, responsive interface with smooth animations
